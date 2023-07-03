@@ -12,10 +12,7 @@ function ScreenWelcome() {
       <div className="main_container">
         <div className="welcome_title">
           <h1>Decoration For Your Refined Ceremonies</h1>
-          <p>
-            WITH US YOU CAN NOT WORRY ABOUT SOMETHING GOING WRONG, WE HAVE BEEN
-            ON THE MARKET FOR MORE THAN 5 YEARS
-          </p>
+          <p>CREATIVE AND ELEGEANT EVENTS...</p>
         </div>
         <div className="container_image">
           <img alt="maried_couple" className="img_panorama" src={mlk_baniere} />
