@@ -9,8 +9,8 @@ function Header() {
       <div className="header_navigation">
         <div className="header_group">
           <p>Services</p>
-          <p>About us</p>
           <p>Contact</p>
+          <p>Shop</p>
         </div>
       </div>
     </div>
