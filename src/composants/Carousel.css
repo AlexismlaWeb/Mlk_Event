@@ -1,0 +1,25 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.slide {
+  width: 100%;
+  height: 70vh;
+}
+
+.slide-hidden {
+  display: none;
+}
+
+.pointer {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pointer:hover {
+  transition: 1.2s;
+  transform: scale(1.2);
+}

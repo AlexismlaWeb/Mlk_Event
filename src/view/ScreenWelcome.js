@@ -3,6 +3,7 @@ import "../App.css";
 import table_mlk from "../mlk_table.PNG";
 import mlk_cards from "../mlk_cards.PNG";
 import mlk_baniere from "../mlk_baniere.PNG";
+import Carousel from "../composants/caroussel.js";
 
 function ScreenWelcome() {
   return (
@@ -28,18 +29,7 @@ function ScreenWelcome() {
             iusto quia qui voluptatem voluptas sed illum iure.
           </p>
           <div className="product_carroussel">
-            <div>
-              <img src={mlk_cards} alt="table_mariage" />
-            </div>
-            <div>
-              <img src={table_mlk} alt="table_mariage" />
-            </div>
-            <div>
-              <img src={mlk_cards} alt="table_mariage" />
-            </div>
-            <div>
-              <img src={table_mlk} alt="table_mariage" />
-            </div>
+            <Carousel />
           </div>
         </div>
       </div>

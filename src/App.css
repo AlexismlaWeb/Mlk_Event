@@ -48,14 +48,7 @@
 .product_carroussel {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   margin-block: 5%;
-}
-
-.product_carroussel img {
-  width: 22vw;
-  height: 45vh;
 }
 
 .title_product {
@@ -122,6 +115,10 @@
   font-size: 0.6rem;
   margin-block: 3%;
   cursor: pointer;
+}
+.button_all_product:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
 }
 
 .packages .button_container {
