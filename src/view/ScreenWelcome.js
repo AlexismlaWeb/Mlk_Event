@@ -11,8 +11,8 @@ function ScreenWelcome() {
       <Header />
       <div className="main_container">
         <div className="welcome_title">
-          <h1>Decoration For Your Refined Ceremonies</h1>
-          <p>CREATIVE AND ELEGEANT EVENTS...</p>
+          <h1>CREATIVE AND ELEGEANT EVENTS...</h1>
+          <p>Decoration For Your Refined Ceremonies</p>
         </div>
         <div className="container_image">
           <img alt="maried_couple" className="img_panorama" src={mlk_baniere} />
